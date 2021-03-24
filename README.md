@@ -21,7 +21,7 @@ def get_center (x, y, w, h):
      cy = y + y1
      return cx, cy
     
-cap = cv2.VideoCapture ('C:/Users/lenovo/Downloads/video.mp4')
+cap = cv2.VideoCapture ('video.mp4')
 subtraction = cv2.bgsegm.createBackgroundSubtractorMOG ()
 while True:
     ret, frame = cap.read ()
